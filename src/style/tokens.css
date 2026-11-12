@@ -1,0 +1,42 @@
+:root {
+  color-scheme: dark;
+
+  /* Fundos */
+  --bg: #0b0f14;
+  --surface: #151b23;
+  --surface-2: #1d2630;
+  --surface-3: #252f3a;
+
+  /* Identidade DevLab */
+  --brand: #ece8df;
+  --brand-ink: #0b0f14;
+
+  /* Cor de destaque */
+  --primary: var(--brand);
+  --primary-ink: var(--brand-ink);
+
+  /* Textos */
+  --text: #f3f4f6;
+  --text-2: #9ca3af;
+
+  /* Bordas */
+  --border: #303843;
+  --border-strong: #3d4754;
+
+  /* Estados */
+  --warn: #e3b341;
+  --info: #79c0ff;
+  --danger: #ff7b72;
+
+  /* Código */
+  --code-bg: #0f141a;
+
+  /* Tipografia */
+  --font-sans: Inter, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Bordas arredondadas */
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 14px;
+}
