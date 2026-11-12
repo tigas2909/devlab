@@ -7,19 +7,17 @@
     <!-- CABEÇALHO -->
     <header class="header">
       <div class="container header-content">
-        <a href="/" class="brand">
+        <a to="/" class="brand">
           <span class="brand-icon">&lt;/&gt;</span>
           <span>DevLab</span>
         </a>
 
         <nav class="navigation">
-          <a href="#inicio">Início</a>
-          <a href="/aula/1">Aula 01</a>
-          <a href="/aula/2">Aula 02</a>
-          <a href="/atividades">Atividades</a>
-          <a href="/desafios">Desafios</a>
-          <a href="/playground">Playground</a>
-          <a href="#sobre">Sobre</a>
+          <RouterLink to="/aula/1">Aula 1</RouterLink>
+          <RouterLink to="/aula/2">Aula 2</RouterLink>
+          <RouterLink to="/atividades">Atividades</RouterLink>
+          <RouterLink to="/desafios">Desafios</RouterLink>
+          <RouterLink to="/playground">Playground</RouterLink>
         </nav>
       </div>
     </header>
